@@ -16,3 +16,6 @@ Route::get('/contacto', [ContactoController::class, 'formularioContacto'])
 
 Route::post('/recibe-formulario', [ContactoController::class, 'recibeFormulario'])
     ->name('recibe-formulario');
+
+
+
